@@ -1,0 +1,14 @@
+{% extends "movies/_base.html" %}
+<html>
+  <body>
+    {%block content%}
+    <h1>I love war movies</h1>
+    {% load static %}
+    <img
+      style="width: 100px"
+      src="{% static 'movies/IMG_2136.JPEG' %}"
+      alt="My Princesse"
+    />
+    {%endblock%}
+  </body>
+</html>
